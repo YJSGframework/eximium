@@ -26,7 +26,7 @@ Visit [Eximium](http://joomlatemplates.youjoomla.info/eximium/) Joomla Template 
 
 ## Bug tracker
 
-Have a bug or a request? Please open an issue here https://github.com/YJSGframework/yjsg/issues
+Have a bug or a request? Please open an issue here https://github.com/YJSGframework/eximium/issues
 
 
 ##Credits
