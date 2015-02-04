@@ -1,0 +1,150 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+/* EXTEND DEFAULTS */
+body{
+	font-family:"Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	line-height:2.18;
+}
+.holders {
+	padding:70px 0;
+}
+.yjsg_grid {
+	padding:70px 0;
+}
+#yjsgheadergrid {
+	padding:15px 0;
+}
+#yjsgbodytop {
+	padding-bottom:15px;
+}
+#yjsgbodybottom {
+	padding-top:15px;
+}
+.footer_out {
+	padding:70px 0;
+}
+.yjsgouts {
+	display:block;
+	clear:both;
+	width:auto;
+}
+.yjsgouts:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.eximium-search {
+	padding-top:15px;
+}
+.eximium-list {
+	list-style: none;
+	padding-left: 0;
+}
+.eximium-list li {
+	line-height:28px;
+}
+/* Module and Items titles */
+.article_title,
+.module_title {
+	font-size:170%;
+}
+/* Top menu*/
+#yjsgheadergrid #topmenu_holder{
+	float:right;
+	margin-top:20px;
+	background:none;
+}
+.yjsgrtl #yjsgheadergrid #topmenu_holder{
+	float:left;
+}
+/* top level menu items */
+ul.yjsgmenu li a,
+ul.yjsgmenu.megadropline a.dlevel1a,
+ul.yjsgmenu.megadropline .cleardropline,
+ul.yjsgmenu.megadropline .cleardropline {
+	padding:0px 25px;
+	height:50px;
+	line-height:50px;
+}
+ul.yjsgmenu a span.yjm_has_desc,
+ul.yjsgmenu a span.yjm_has_all,
+ul.yjsgmenu.megadropline a.dlevel1a span.yjm_has_desc,
+ul.yjsgmenu.megadropline a.dlevel1a span.yjm_has_all {
+	padding: 10px 0;
+}
+/* sub levels menu items */
+ul.yjsgmenu ul li a {
+	line-height:35px;
+}
+ul.yjsgmenu ul a span.yjm_has_desc,
+ul.yjsgmenu ul a span.yjm_has_all {
+	line-height:normal;
+	padding:10px 0;
+}
+/* center footer links and logo */
+#footer div,.yjsglogo {
+	display:block;
+	clear:both;
+	text-align:center;
+	position:relative;
+	margin:0 auto;
+	line-height:2.5;
+}
+.yjsglogo {
+	right:auto;
+	margin-top:15px;
+}
+/* module styles */
+.yjsg1,
+.yjsg2{
+	padding:15px;
+}
+.yjsg1 .module_title,
+.yjsg2 .module_title{
+	padding-top:5px;
+	padding-bottom:15px;
+}
+@media screen and (max-width: 979px) {
+	
+	/* mobile menu and search under 980px */
+	#yjsgheadergrid #topmenu_holder{
+		float:none;
+	}
+	div#mmenu_holder{
+		margin-bottom:50px;
+	}
+	div#header3.yjsgsfx-eximium-search{
+		float:none;
+		margin:0 auto;
+		max-width:210px;
+	}
+	/* turn tabs in to pills since they drop down */
+	div#features-tabs ul.yjsgShortcodeTabs{
+		border-bottom:none;
+	}
+	div#features-tabs ul.yjsgShortcodeTabs li{
+		margin-bottom:10px;
+	}
+	div#features-tabs ul.yjsgShortcodeTabs li a,
+	div#features-tabs ul.yjsgShortcodeTabs li.active a{
+		-webkit-border-radius:4px;
+		-khtml-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+	}
+	div#features-tabs ul.yjsgShortcodeTabs li.active a{
+		border-bottom-color:#ddd;
+	}
+}

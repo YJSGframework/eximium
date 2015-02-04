@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" method="upgrade">
+	<name>Eximium</name>
+	<creationDate>5-20-2014</creationDate>
+	<author>Youjoomla.com</author>
+	<copyright>Copyright (C),FT Web STudio INC. All Rights Reserved.</copyright>
+	<authorEmail>templates@youjoomla.com</authorEmail>
+	<authorUrl>www.youjoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<yjsgversion>2.0.0</yjsgversion>
+	<description>
+		<![CDATA[<style type="text/css" media="all">#wrap1 {padding:10px 0;margin:20px auto;float:left;display:block;overflow:hidden;clear:both;max-width:500px;line-height:24px;height:auto!important;text-align:center!important;background:#F6F6F6;border:1px solid #DEDEDE;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}.admin_t_name {font-size:18px;display:block;clear:both;text-align:center!important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;margin:15px!important;}#wrap1 img {display:block;margin:0 auto;text-align:center!important;float:none!important;}.exinfo{font-size:14px;padding:10px;display:block;overflow:hidden;text-align:center!important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}</style><div id="wrap1"><h2 class="admin_t_name">Eximium Joomla! Template</h2><img src="../templates/eximium/template_thumbnail.png" /><h2 class="admin_t_name">is proudly powered by</h2><a href="http://www.yjsimplegrid.com" target="_blank"><span title="YJSimpleGrid Joomla! Template Framework by Youjoomla.com"><img src="../templates/eximium/images/system/yjsg.png" border="0" title="Yjsglogo" alt="yjsglogo"/></span></a><h2 class="admin_t_name">YJSG Template Framework</h2><div class="exinfo">Thank you for downloading Youjoomla.com template. <br />For fast info visit following links: <br /><a href="http://yjsimplegrid.com/documentation/" target="_blank">Documentation</a> | <a href="http://www.joomlatemplates.youjoomla.info/eximium/" target="_blank">Demo</a><br />If you need support please post new thread in our <a href="http://www.youjoomla.com/joomla_support/index.php" target="_blank">Forum</a>. <br />Have fun playing with your new template :) <br /><a href="http://www.youjoomla.com">Youjoomla.com</a></div></div>]]>
+	</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_eximium.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_eximium.sys.ini</language>
+	</languages>
+	<files>
+		<filename>index.php</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>offline.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>template-settings.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>elements</folder>
+		<folder>layouts</folder>
+		<folder>language</folder>
+		<folder>src</folder>
+		<folder>css_compiled</folder>
+		<folder>custom</folder>
+	</files>
+	<positions>
+		<position>topmenupoz</position>
+		<position>sidepanel</position>
+		<position>tpan1</position>
+		<position>tpan2</position>
+		<position>tpan3</position>
+		<position>tpan4</position>
+		<position>tpan5</position>
+		<position>bpan1</position>
+		<position>bpan2</position>
+		<position>bpan3</position>
+		<position>bpan4</position>
+		<position>bpan5</position>
+		<position>header</position>
+		<position>footer</position>
+		<position>insettop</position>
+		<position>insetbottom</position>
+		<position>inset</position>
+		<position>bottom</position>
+		<position>banner</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>topmenu</position>
+		<position>cpanel</position>
+		<position>top1</position>
+		<position>top2</position>
+		<position>top3</position>
+		<position>top4</position>
+		<position>top5</position>
+		<position>header1</position>
+		<position>header2</position>
+		<position>header3</position>
+		<position>adv1</position>
+		<position>adv2</position>
+		<position>adv3</position>
+		<position>adv4</position>
+		<position>adv5</position>
+		<position>bodytop1</position>
+		<position>bodytop2</position>
+		<position>bodytop3</position>
+		<position>bodybottom1</position>
+		<position>bodybottom2</position>
+		<position>bodybottom3</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>
+		<position>user15</position>
+		<position>user16</position>
+		<position>user17</position>
+		<position>user18</position>
+		<position>user19</position>
+		<position>user20</position>
+		<position>user21</position>
+		<position>user22</position>
+		<position>user23</position>
+		<position>user24</position>
+		<position>user25</position>
+		<position>offcanvas</position>
+	</positions>
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/yjsg/elements">
+			<fieldset name="YJSG_VERSION_CHECK">
+				<field name="yjsgcheck" type="yjsgcheck" addfieldpath="/templates/eximium/elements"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

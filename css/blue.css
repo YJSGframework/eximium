@@ -1,0 +1,272 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimplegrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+body {
+	color:#888;
+}
+/* links highlight and fa deviders */
+a,
+.highlight,
+[class*='facolor'].fa:before {
+	color:#40b1e2;
+}
+/* hovers */
+a:focus,
+a:hover {
+	color:#1c8ab9;
+}
+/* text highlight */
+::selection {
+	background: #40b1e2;
+	color:#fff;
+}
+::-moz-selection {
+ background: #40b1e2;
+ color:#fff;
+}
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color:#454545;
+}
+.yjsg-sub-heading,
+.yjsg-sticky-menu a.active-scroll,
+[data-sticky-block] a.active-scroll:before{
+	border-color:#40b1e2;
+}
+/* logo */
+#logo {
+	background:url(../images/blue/logo.png) no-repeat 0px 0px;
+}
+/* newsitems */
+#article-index ul {
+	border:1px solid #dcdcdc;
+}
+#article-index ul li {
+	border-bottom:1px solid #dcdcdc;
+}
+.newsitem_tools {
+	color:#888;
+}
+/* rating stars */
+.view-article .yjsg-rating:hover .fa-star,
+.fa-star.rated {
+	color:#FC0;
+}
+/* form elements  */
+.yjsg-form-element,
+.inputbox {
+	background:#fff;
+	border: 1px solid #dcdcdc;
+}
+.yjsg-form-element,
+.inputbox:focus {
+}
+/* buttons */
+.button,
+.button:hover,
+a.readon,
+a.readon:hover,
+a.readon:focus {
+	background:#fff;
+	border:1px solid #dcdcdc;
+}
+a.readon:hover {
+	color:#333;
+	background:#efefef;
+}
+[class*='yjsg-button-color']{
+	background: #40b1e2;
+}
+[class*='yjsg-button-color']:hover{
+	background:#1c8ab9;
+}
+/*top menu */
+#topmenu_holder,.ulholder.dlevel1 {
+	background:#F7F7F7;
+}
+.yjsgmenu ul,
+.yjsgmenu li.holdsgroup ul ul {
+	background:#fff;
+	border:1px solid #ccc;
+	-webkit-box-shadow:0 0 8px #e2e2e2;
+	-khtml-box-shadow:0 0 8px #e2e2e2;
+	-moz-box-shadow:0 0 8px #e2e2e2;
+	box-shadow:0 0 8px #e2e2e2;
+}
+.yjsgmenu li a {
+	color:#444;
+}
+.yjsgmenu li a:hover {
+	color:#40b1e2;
+}
+.yjsgmenu ul li {
+	border-bottom:1px solid #ccc;
+}
+.yjsgmenu a.activepath,
+.yjsgmenu a:hover,
+.yjsgmenu a:focus,
+.yjsgmenu li:hover > .child a {
+	background:#efefef;
+}
+/* has child arrows */
+.yjsgmenu span.child a:after {
+	content: "\f0d7";
+}
+.yjsgmenu ul span.child a:after {
+	content: "\f0da";
+}
+.yjsgmenu ul span.child a:hover:after {
+	content: "\f0d7";
+}
+/* side menu */
+.defaultmenu li a {
+	border-bottom: 1px solid #D4D4D4;
+}
+.defaultmenu a.isactivea,
+.defaultmenu li a:hover {
+	background:#f5f5f5;
+	color: #121212;
+}
+.defaultmenu li a:before {
+	content: "\f054";
+}
+/* footer logo  */
+.yjsglogo {
+	background: url(../images/blue/yjsglogo.png) no-repeat center center;
+}
+/* responsive menu */
+span.yjmm_select {
+	color: #999;
+	border:1px solid #ddd;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+span.yjmm_select:after {
+	content:"\f0c9";
+}
+/* RTL */
+/* has child arrows */
+.yjsgrtl ul.yjsgmenu ul span.child a:after {
+	content: "\f0d9";
+}
+/* side menu */
+.yjsgrtl ul.defaultmenu li a:before {
+	content: "\f053";
+}
+/* EXTEND DEFAULTS */
+.eximium-intro p,
+.eximium-features p {
+	color:#939393;
+}
+.yjsg2_out,
+.yjsg2_out [class*='yjsg-hr-'].fa:before {
+	background:#fcfcfc;
+}
+.yjsg4_out,
+.yjsg4_out [class*='yjsg-hr-'].fa:before {
+	background:#f8f8f8;
+}
+.yjsg6_out,
+.yjsg6_out [class*='yjsg-hr-'].fa:before {
+	background:#fcfcfc;
+}
+.yjsg7_out,
+.yjsg7_out [class*='yjsg-hr-'].fa:before {
+	background:#f8f8f8;
+}
+.footer_out {
+	background:#212121;
+}
+/* fa icons bottom arrow */
+.eximium-intro .fa-border {
+	background-color:#40b1e2;
+	color:#fff;
+	border:none;
+	position:relative;
+	margin-bottom:15px;
+}
+.eximium-intro .fa-border:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 15px 0;
+	border-color: #40b1e2 transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	margin-left: -15px;
+	bottom: -14px;
+	left: 50%;
+}
+.socials .fa-border:after {
+	display:none;
+}
+/* features tabs */
+#features-tabs .yjsgShortcodeTabs li a {
+	background:#40b1e2;
+	color:#fff;
+	border:none;
+}
+#features-tabs .yjsgShortcodeTabs li.active a {
+	background:#fff;
+	color:#40b1e2;
+	border:none;
+	border:1px solid #ddd;
+	border-bottom-color: transparent;
+}
+#features-tabs .yjsgShortcodeTabs {
+	border-color:#40b1e2;
+}
+/* eximium-list */
+.eximium-list li a {
+	color:#444;
+}
+.eximium-list li a:hover {
+	color:#40b1e2;
+}
+/* richsnippets section icons */
+.richsnippets .yelloic .fa {
+	color:#FC0;
+}
+/* footer */
+#footer,
+#footer a:hover {
+	color:#555;
+}
+/* module styles */
+.yjsg1{
+	background:#40b1e2;
+	color:#fff;
+}
+.yjsg1 .module_title{
+	border-bottom:1px solid #fff;
+}
+.yjsg1 a{
+	color:#121212;
+}
+.yjsg1 a:hover{
+	color:#1c8ab9;
+}
+.yjsg2{
+	background:#efefef;
+}
+.yjsg2 .module_title{
+	border-bottom:1px solid #ccc;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params" addfieldpath="/plugins/system/yjsg/elements">
+		<fieldset name="YJSG_MODULE_OPTIONS" label="Yjsg Module Options">
+			<field name="yjsg_module_style" type="list" default="default" label="Module styles" description="Select custom module style from the list. ">
+				<option value="default">Default</option>
+				<option value="yjsg1">Yjsg1</option>
+				<option value="yjsg2">Yjsg2</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>
