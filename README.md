@@ -5,7 +5,7 @@ Base template for YJSG Framework
 * [Homepage](http://yjsimplegrid.com) - Learn more about Yjsg
 * [Blog](http://www.youjoomla.com/youjoomla-blog/yjsg-framework-blog.html) - Yjsg blog
 * [@youjoomla](https://twitter.com/youjoomla) - Get the latest Yjsg tweets
-* [Issues](https://github.com/YJSGframework/yjsg/issues) - Bug reports
+* [Issues](https://github.com/YJSGframework/eximium/issues) - Bug reports
 
 
 ## Demo
