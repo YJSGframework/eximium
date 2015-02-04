@@ -10,7 +10,7 @@ Base template for YJSG Framework
 
 ## Demo
 
-Visit [Eximium](http://joomlatemplates.youjoomla.info/eximium/) Joomla Template Demo to see Yjsg in action.
+Visit [Eximium](http://joomlatemplates.youjoomla.info/eximium/) Joomla Template Demo to see Eximium in action.
 
 ## Download
 
