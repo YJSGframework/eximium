@@ -33,7 +33,7 @@
 			
 			
 		var LinkShortcode = '<a class="btn yjsg-shortcode-link"';
-			LinkShortcode += ' href="'+siteroot+'templates/'+sitetemplate+'/custom/yjsgshortcodes/templates/link.html"';
+			LinkShortcode += ' href="'+siteroot+'templates/'+sitetemplate+'/custom/yjsgshortcodes/templates/link.php"';
 			LinkShortcode += ' rel="{handler: \'iframe\', size: {x: 770, y: 500}}">';
 			LinkShortcode += ' <i class="fa fa-link"></i> ';
 			LinkShortcode += 'Link';

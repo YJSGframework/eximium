@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
 	<fields name="attribs" addfieldpath="/plugins/system/yjsg/elements">
-		<fieldset name="YJSG_ARTICLE" label="Yjsg Article Options">
-			<field name="yjsg_custom_article_param" type="list" default="0" label="Custom article param" description="Demo extended article param trough template.">
+		<fieldset name="YJSG_ARTICLE" label="YJSG_ARTICLE_OPTIONS">
+			<field name="yjsg_custom_article_param" type="list" default="0" label="YJSG_ARTICLE_CUSTOM_LABEL" description="YJSG_ARTICLE_CUSTOM_DESC">
 				<option value="0">JNO</option>
 				<option value="1">JYES</option>
 			</field>
