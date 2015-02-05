@@ -28,7 +28,7 @@
 				 insertlink +=']';
 			
 			if (linkhref == '') {
-				alert('Link is required');
+				alert(jstr_link_required);;
 				return;
 				
 			}
