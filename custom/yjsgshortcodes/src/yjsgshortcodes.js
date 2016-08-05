@@ -42,7 +42,6 @@
 			$( ".yjsg-shortcodes" ).append( LinkShortcode );
 
 			if (typeof (SqueezeBox) != 'undefined') {
-				SqueezeBox.close();
 				SqueezeBox.initialize({});
 				SqueezeBox.assign($$('a.yjsg-shortcode-link'), {
 					parse: 'rel'
